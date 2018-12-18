@@ -36,7 +36,7 @@ THE SOFTWARE.
    <version>3.0.5-SNAPSHOT</version>
    <packaging>hpi</packaging>
 
-   <name>Jenkins JaCoCo plugin</name>
+   <name>Jenkins JaCoCo plugin (Extole forked)</name>
    <url>https://wiki.jenkins-ci.org/display/JENKINS/JaCoCo+Plugin</url>
    <licenses>
       <license>

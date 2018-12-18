@@ -582,10 +582,6 @@ public class JacocoPublisher extends Recorder implements SimpleBuildStep {
         // Initialize delta health report with user-configured threshold values
         deltaHealthReport = createJacocoDeltaHealthReportThresholds();
 
-        if (run.getResult() == Result.FAILURE || run.getResult() == Result.ABORTED) {
-            return;
-        }
-
         final PrintStream logger = taskListener.getLogger();
         logger.println("[JaCoCo plugin] Collecting JaCoCo coverage data...");
 
