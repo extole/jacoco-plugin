@@ -1,5 +1,5 @@
 target/*
-!target/jacoco.zip
+!target/jacoco.hpi
 work
 
 # IntelliJ project files
